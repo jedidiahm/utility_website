@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Utility Website</h1>
+        <p>Tools for everyday tasks</p>
+    </header>
+    <section id="stringAnalysis">
+        <h2>String Analysis</h2>
+        <input type="text" id="stringInput" placeholder="Enter a string">
+        <button onclick="countVowelsConsonants()">Analyze String</button>
+        <p id="stringResult"></p>
+    </section>
+    <section id="palindromeChecker">
+        <h2>Palindrome Checker</h2>
+        <input type="text" id="numberInput" placeholder="Enter numbers">
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <p id="palindromeResult"></p>
+    </section>
+    <section id="tipCalculator">
+        <h2>Tip Calculator</h2>
+        <input type="number" id="subtotalInput" placeholder="Enter subtotal">
+        <input type="number" id="tipPercentageInput" placeholder="Enter tip percentage">
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <p id="totalResult"></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 JEDIDIAH MATHANGI. All rights reserved.<br>
+        Email: <a href="mailto:jm2526@njit.edu">jm2526@njit.edu</a> | Phone: 973-681-8155 | Location: Newark, NJ 07102</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
